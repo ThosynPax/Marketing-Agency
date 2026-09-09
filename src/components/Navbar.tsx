@@ -117,6 +117,12 @@ export function Navbar({
                   >
                     Testimonials
                   </button>
+                  <button
+                    onClick={() => handleLinkClick('common-questions')}
+                    className="w-full text-left px-3 py-2 text-sm text-neutral-300 hover:text-white hover:bg-neutral-800/80 rounded-xl transition-colors"
+                  >
+                    Common Questions
+                  </button>
                 </div>
               )}
             </div>
@@ -222,6 +228,12 @@ export function Navbar({
                 className="text-left py-2 px-3 rounded-lg hover:bg-neutral-800 hover:text-white transition-colors"
               >
                 Client Reviews
+              </button>
+              <button
+                onClick={() => handleLinkClick('common-questions')}
+                className="text-left py-2 px-3 rounded-lg hover:bg-neutral-800 hover:text-white transition-colors"
+              >
+                Common Questions
               </button>
               <button
                 onClick={() => handleLinkClick('footer')}

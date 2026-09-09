@@ -149,6 +149,14 @@ export function Footer({ onNavigate, onBookCall }: FooterProps) {
                   ROI Simulator
                 </button>
               </li>
+              <li>
+                <button
+                  onClick={() => onNavigate('common-questions')}
+                  className="hover:text-white transition-colors cursor-pointer"
+                >
+                  Common Questions
+                </button>
+              </li>
             </ul>
           </div>
 

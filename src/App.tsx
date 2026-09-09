@@ -8,6 +8,7 @@ import { ExpertiseSolutions } from './components/ExpertiseSolutions';
 import { RoiCalculator } from './components/RoiCalculator';
 import { CaseStudies } from './components/CaseStudies';
 import { Testimonials } from './components/Testimonials';
+import { FaqSection } from './components/FaqSection';
 import { Footer } from './components/Footer';
 import { ScopeDrawer } from './components/ScopeDrawer';
 import { BookingModal } from './components/BookingModal';
@@ -166,6 +167,9 @@ export default function App() {
 
         {/* Testimonials */}
         <Testimonials />
+
+        {/* Common Questions / FAQ Accordion */}
+        <FaqSection onBookCall={() => setIsBookingModalOpen(true)} />
 
         {/* Footer */}
         <Footer
